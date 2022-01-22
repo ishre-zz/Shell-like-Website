@@ -1,4 +1,6 @@
 /* global $, localStorage, Shell */
+/* The below Code was used by SHREYASH DUBEY for the project of */ 
+/* a shell like website parts of it has been sourced from the MOZILLA DEVELOPER NETWORK */
 
 const errors = {
   invalidDirectory: 'Error: not a valid directory',
@@ -15,7 +17,7 @@ const struct = {
 
 const commands = {};
 let systemData = {};
-const rootPath = 'users/codebytere/root';
+const rootPath = 'users/ishre/root';
 
 const getDirectory = () => localStorage.directory;
 const setDirectory = (dir) => {
